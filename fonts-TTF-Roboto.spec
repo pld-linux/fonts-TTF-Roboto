@@ -4,7 +4,7 @@ Version:	2.134
 Release:	1
 License:	Apache
 Group:		Fonts
-Source0:	https://github.com/google/roboto/releases/download/v2.134/roboto-unhinted.zip
+Source0:	https://github.com/google/roboto/releases/download/v%{version}/roboto-unhinted.zip
 # Source0-md5:	308966fb7e6d65254c52ff721c8e5c21
 URL:		https://github.com/google/roboto/
 BuildRequires:	unzip
@@ -15,8 +15,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		ttffontsdir	%{_fontsdir}/TTF
 
 %description
-Roboto: Google’s signature family of fonts, the default font on
-Android and Chrome OS, and the recommended font for Google’s visual
+Roboto: Google's signature family of fonts, the default font on
+Android and Chrome OS, and the recommended font for Google's visual
 language, Material Design.
 
 %prep
