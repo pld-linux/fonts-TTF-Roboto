@@ -4,7 +4,7 @@ Version:	2.136
 Release:	1
 License:	Apache
 Group:		Fonts
-Source0:	https://github.com/google/roboto/releases/download/v%{version}/roboto-unhinted.zip
+Source0:	https://github.com/google/roboto/releases/download/v%{version}/roboto-unhinted.zip?/roboto-unhinted-%{version}.zip
 # Source0-md5:	cc3c1a0fa741618283c19fdf987fad95
 URL:		https://github.com/google/roboto/
 BuildRequires:	unzip
