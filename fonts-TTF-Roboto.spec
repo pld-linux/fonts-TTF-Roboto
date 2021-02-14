@@ -1,9 +1,11 @@
 Summary:	The Roboto family of fonts
+Summary(pl.UTF-8):	Rodzina fontów Roboto
 Name:		fonts-TTF-Roboto
 Version:	2.136
 Release:	1
-License:	Apache
+License:	Apache v2.0
 Group:		Fonts
+#Source0Download: https://github.com/google/roboto/releases
 Source0:	https://github.com/google/roboto/releases/download/v%{version}/roboto-unhinted.zip?/roboto-unhinted-%{version}.zip
 # Source0-md5:	cc3c1a0fa741618283c19fdf987fad95
 URL:		https://github.com/google/roboto/
@@ -18,6 +20,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Roboto: Google's signature family of fonts, the default font on
 Android and Chrome OS, and the recommended font for Google's visual
 language, Material Design.
+
+%description -l pl.UTF-8
+Roboto to rodzina fontów firmowana przez Google, domyślny font w
+systemach Android i Chrome, zalecany font dla języka wizualnego
+Google'a Material Design.
 
 %prep
 %setup -q -n roboto-unhinted
